@@ -1,0 +1,195 @@
+[
+    {
+        "id": "fc50543e-6628-4a74-af10-d2817422b513",
+        "image": "dakota1.jpg",
+        "product": [
+            { "id": 1, "image": "dakota1.jpg" },
+            { "id": 2, "image": "dakota2.jpg" },
+            { "id": 3, "image": "dakota3.jpg" },
+            { "id": 4, "image": "dakota4.jpg" },
+            { "id": 5, "image": "dakota5.jpg" },
+            { "id": 6, "image": "dakota6.jpg" },
+            { "id": 7, "image": "dakota7.jpg" },
+            { "id": 8, "image": "dakota8.jpg" }
+        ],
+        "couchSize": [
+            { "value": 0, "price": 13400, "label": "80х190 см" },
+            { "value": 1, "price": 13400, "label": "80х200 см" },
+            { "value": 2, "price": 14100, "label": "90х190 см" },
+            { "value": 3, "price": 14100, "label": "90х200 см" },
+            { "value": 4, "price": 14800, "label": "120х190 см" },
+            { "value": 5, "price": 14800, "label": "120х200 см" },
+            { "value": 6, "price": 15500, "label": "140х190 см" },
+            { "value": 7, "price": 15500, "label": "140х200 см" },
+            { "value": 8, "price": 16200, "label": "160х190 см" },
+            { "value": 9, "price": 16200, "label": "160х200 см" },
+            { "value": 10, "price": 17000, "label": "180х190 см" },
+            { "value": 11, "price": 17000, "label": "180х200 см" },
+            { "value": 12, "price": 17800, "label": "200х200 см" }
+        ],
+        "mattress": [
+            { "value": 1, "label": "Без матраса" },
+            { "value": 2, "label": "Матрас «Сан»" },
+            { "value": 3, "label": "Матрас «Moкко-Софт»" }
+        ],
+        "mattressSize": [
+            { "value": 0, "label": "80х190 см", "sans": 5008, "soft": 3042 },
+            { "value": 1, "label": "80х200 см", "sans": 5168, "soft": 3156 },
+            { "value": 2, "label": "90х190 см", "sans": 5480, "soft": 3380 },
+            { "value": 3, "label": "90х200 см", "sans": 5664, "soft": 3507 },
+            { "value": 4, "label": "120х190 см", "sans": 6824, "soft": 4395 },
+            { "value": 5, "label": "120х200 см", "sans": 7016, "soft": 4563 },
+            { "value": 6, "label": "140х190 см", "sans": 7776, "soft": 5070 },
+            { "value": 7, "label": "140х200 см", "sans": 8008, "soft": 5264 },
+            { "value": 8, "label": "160х190 см", "sans": 8872, "soft": 5753 },
+            { "value": 9, "label": "160х200 см", "sans": 9000, "soft": 5970 },
+            {
+                "value": 10,
+                "label": "180х190 см",
+                "sans": 9640,
+                "soft": 6429
+            },
+            {
+                "value": 11,
+                "label": "180х200 см",
+                "sans": 9880,
+                "soft": 6675
+            },
+            { "value": 12, "label": "200х200 см", "sans": 15168, "soft": 13160 }
+        ],
+        "title": "Кровать DAKOTA",
+        "description": "Материал обивки: велюр, ортопедическая рамка, большая ниша для вещей, скрытые пластиковые ножки, цвет и размер на выбор",
+        "reference": "БЕСПЛАТНАЯ ДОСТАВКА В ПОДАРОК!",
+        "material": "велюр",
+        "legs": "скрытые пластиковые",
+        "filling": "пенополиуретан ",
+        "mattress_base": "ортопедическая рамка",
+        "niche_for_things": true,
+        "construction": "каркас из ДСП, деревянного бруса и фанерного листа",
+        "mechanism": "подъёмный механизм с газо-масляными амортизаторами",
+        "additionally": "мебельные стразы вместо пуговиц - 2100 грн",
+        "price": 13400
+    },
+    {
+        "id": "a91d4a1b-44ff-4477-9533-0d5e9de3578d",
+        "image": "emilia1.jpg",
+        "product": [
+            { "id": 1, "image": "emilia1.jpg" },
+            { "id": 2, "image": "emilia2.jpg" },
+            { "id": 3, "image": "emilia3.jpg" },
+            { "id": 4, "image": "emilia4.jpg" },
+            { "id": 5, "image": "emilia5.jpg" },
+            { "id": 6, "image": "emilia6.jpg" },
+            { "id": 7, "image": "emilia7.jpg" },
+            { "id": 8, "image": "emilia8.jpg" },
+            { "id": 9, "image": "emilia9.jpg" },
+            { "id": 10, "image": "emilia10.jpg" }
+        ],
+        "couchSize": [
+            { "value": 0, "price": 14900, "label": "140х190 см" },
+            { "value": 1, "price": 14900, "label": "140х200 см" },
+            { "value": 2, "price": 16100, "label": "160х190 см" },
+            { "value": 3, "price": 16100, "label": "160х200 см" },
+            { "value": 4, "price": 17300, "label": "180х190 см" },
+            { "value": 5, "price": 17300, "label": "180х200 см" },
+            { "value": 6, "price": 18500, "label": "200х200 см" }
+        ],
+        "mattress": [
+            { "value": 1, "label": "Без матраса" },
+            { "value": 2, "label": "Матрас «Сан»" },
+            { "value": 3, "label": "Матрас «Moкко-Софт»" }
+        ],
+        "mattressSize": [
+            { "value": 6, "label": "140х190 см", "sans": 7776, "soft": 5070 },
+            { "value": 7, "label": "140х200 см", "sans": 8008, "soft": 5264 },
+            { "value": 8, "label": "160х190 см", "sans": 8872, "soft": 5753 },
+            { "value": 9, "label": "160х200 см", "sans": 9000, "soft": 5970 },
+            {
+                "value": 10,
+                "label": "180х190 см",
+                "sans": 9640,
+                "soft": 6429
+            },
+            {
+                "value": 11,
+                "label": "180х200 см",
+                "sans": 9880,
+                "soft": 6675
+            },
+            { "value": 12, "label": "200х200 см", "sans": 15168, "soft": 13160 }
+        ],
+        "title": "Кровать EMILIA",
+        "description": "Материал обивки: велюр, ортопедическая рамка, большая ниша для вещей, скрытые пластиковые ножки, цвет и размер на выбор",
+        "reference": "БЕСПЛАТНАЯ ДОСТАВКА В ПОДАРОК!",
+        "material": "велюр",
+        "legs": "скрытые пластиковые",
+        "filling": "пенополиуретан ",
+        "mattress_base": "ортопедическая рамка",
+        "niche_for_things": true,
+        "construction": "каркас из ДСП, деревянного бруса и фанерного листа",
+        "mechanism": "подъёмный механизм с газо-масляными амортизаторами",
+        "additionally": "мебельные стразы вместо пуговиц - 1900 грн",
+        "price": 14900
+    },
+    {
+        "id": "d10ffc35-eb7e-4dd7-bfd5-4e19edb24ccc",
+        "image": "bridget1.jpg",
+        "product": [
+            { "id": 1, "image": "bridget1.jpg" },
+            { "id": 2, "image": "bridget2.jpg" },
+            { "id": 3, "image": "bridget3.jpg" },
+            { "id": 4, "image": "bridget4.jpg" },
+            { "id": 5, "image": "bridget5.jpg" },
+            { "id": 6, "image": "bridget6.jpg" },
+            { "id": 7, "image": "bridget7.jpg" },
+            { "id": 8, "image": "bridget8.jpg" },
+            { "id": 9, "image": "bridget9.jpg" },
+            { "id": 10, "image": "bridget10.jpg" }
+        ],
+        "couchSize": [
+            { "value": 0, "price": 18000, "label": "140х190 см" },
+            { "value": 1, "price": 18000, "label": "140х200 см" },
+            { "value": 2, "price": 18600, "label": "160х190 см" },
+            { "value": 3, "price": 18600, "label": "160х200 см" },
+            { "value": 4, "price": 19200, "label": "180х190 см" },
+            { "value": 5, "price": 19200, "label": "180х200 см" },
+            { "value": 6, "price": 19800, "label": "200х200 см" }
+        ],
+        "mattress": [
+            { "value": 1, "label": "Без матраса" },
+            { "value": 2, "label": "Матрас «Сан»" },
+            { "value": 3, "label": "Матрас «Moкко-Софт»" }
+        ],
+        "mattressSize": [
+            { "value": 6, "label": "140х190 см", "sans": 7776, "soft": 5070 },
+            { "value": 7, "label": "140х200 см", "sans": 8008, "soft": 5264 },
+            { "value": 8, "label": "160х190 см", "sans": 8872, "soft": 5753 },
+            { "value": 9, "label": "160х200 см", "sans": 9000, "soft": 5970 },
+            {
+                "value": 10,
+                "label": "180х190 см",
+                "sans": 9640,
+                "soft": 6429
+            },
+            {
+                "value": 11,
+                "label": "180х200 см",
+                "sans": 9880,
+                "soft": 6675
+            },
+            { "value": 12, "label": "200х200 см", "sans": 15168, "soft": 13160 }
+        ],
+        "title": "Кровать BRIDGET",
+        "description": "Материал обивки: велюр, ортопедическая рамка, ножки - натуральное дерево ясень, цвет и размер на выбор",
+        "reference": "БЕСПЛАТНАЯ ДОСТАВКА В ПОДАРОК!",
+        "material": "велюр",
+        "legs": "натуральное дерево ясень",
+        "filling": "пенополиуретан ",
+        "mattress_base": "ортопедическая рамка",
+        "niche_for_things": false,
+        "construction": "каркас из ДСП, деревянного бруса и фанерного листа",
+        "mechanism": "подъёмный механизм с газо-масляными амортизаторами",
+        "additionally": "подъемный механизм с газо-масляными амортизаторами, ниша для вещей со съемными частями - 2600 грн",
+        "price": 18000
+    }
+]
