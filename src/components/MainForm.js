@@ -264,7 +264,7 @@ const MainForm = ({ isModal, children, data, couchModel, setIsOpen }) => {
                         touched={formik.touched.mattressSize}
                         isDisabled={
                             !formik.values.mattress ||
-                            formik.values.mattress.value === 1
+                            formik.values.mattress.value === 0
                         }
                         placeholder="Выберите размер матраса"
                     />
