@@ -98,7 +98,6 @@ const MainForm = ({ isModal, children, data, couchModel, setIsOpen }) => {
             couchSize: '',
             color: '',
             mattress: '',
-            mattressSize: '',
         },
         enableReinitialize: false,
         validationSchema: () => {
@@ -112,11 +111,6 @@ const MainForm = ({ isModal, children, data, couchModel, setIsOpen }) => {
                 mattress: Yup.string()
                     .ensure()
                     .required('Обязательное поле*'),
-                mattressSize:
-                    formik.values.mattress || formik.values.mattress.value === 0
-                        ? Yup.string()
-                              .ensure()
-                              .required('Обязательное поле*')
                         : null,
                 firstName: Yup.string()
                     .min(1, 'Too Short!')
@@ -135,7 +129,6 @@ const MainForm = ({ isModal, children, data, couchModel, setIsOpen }) => {
                 couchSize: values.couchSize.label,
                 color: values.color.label,
                 mattress: values.mattress.label,
-                mattressSize: values.mattressSize.label,
                 amountPrice: priceValue.price,
             }
 
