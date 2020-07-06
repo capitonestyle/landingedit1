@@ -33,7 +33,6 @@
             { "value": 3, "label": "Матрас «Moкко-Софт»" }
         ],
         "mattressSize": [
-            { "value": 0, "label": "Без матраса", "sans": 0, "soft": 0 },
             { "value": 0, "label": "80х190 см", "sans": 5008, "soft": 3042 },
             { "value": 1, "label": "80х200 см", "sans": 5168, "soft": 3156 },
             { "value": 2, "label": "90х190 см", "sans": 5480, "soft": 3380 },
