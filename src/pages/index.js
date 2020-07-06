@@ -272,6 +272,50 @@ const IndexPage = () => {
             <Footer scrollToContactUsRef={scrollToContactUsRef} />
             <ScrollToTop />
             <div id="fb-root"></div>
+        <Modal
+            isOpen={modalIsOpen}
+            onRequestClose={onHandelCloseDiscountModal}
+            style={customStyles}
+            contentLabel="Discount modal"
+        >
+            <div style={{ position: 'relative', padding: '30px 30px 0 30px' }}>
+                <CloseButton onClick={onHandelCloseDiscountModal}>
+                    <svg height="30" viewBox="0 0 413.348 413.348" width="30">
+                        <path d="m413.348 24.354-24.354-24.354-182.32 182.32-182.32-182.32-24.354 24.354 182.32 182.32-182.32 182.32 24.354 24.354 182.32-182.32 182.32 182.32 24.354-24.354-182.32-182.32z" />
+                    </svg>
+                </CloseButton>
+                <form style={{ textAlign: 'center' }} onSubmit={onHandleSubmit}>
+                    <h3>Уважаемые клиенты Capitone Style!</h3>
+                    <p>
+                        При покупке изделий в магазинах наших партнеров, <br />{' '}
+                        получите{' '}
+                        <span style={{ fontWeight: 'bold', color: 'black' }}>
+                            СКИДКУ 5%
+                        </span>
+                        . Введите свой E-mail,{' '}
+                        <span style={{ fontWeight: 'bold', color: 'black' }}>
+                            ПРОМО- <br />
+                            КОД
+                        </span>{' '}
+                        придет в течении 10 минут, либо свяжитесь с <br /> нами
+                        по телефону
+                    </p>
+                    <InputField
+                        name="email"
+                        type="email"
+                        placeholder="Email"
+                        value={email}
+                        handleChange={handleChange}
+                        error={emailError}
+                        touched={!!emailError}
+                    />
+                    <br />
+                    <div className="product-submit">
+                        <Button type="submit">Отправить заказ</Button>
+                    </div>
+                </form>
+            </div>
+        </Modal>
         </>
     )
 }
