@@ -113,7 +113,7 @@ const MainForm = ({ isModal, children, data, couchModel, setIsOpen }) => {
                     .ensure()
                     .required('Обязательное поле*'),
                 mattressSize:
-                    formik.values.mattress || formik.values.mattress.value === 1
+                    formik.values.mattress || formik.values.mattress.value === 0
                         ? Yup.string()
                               .ensure()
                               .required('Обязательное поле*')
