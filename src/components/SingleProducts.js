@@ -286,7 +286,7 @@ const SingleProducts = ({
                                                 alignItems: 'center',
                                             }}
                                         >
-                                            <strong>матрас «Моко-Софт»</strong>
+                                            <strong>матрас «Мокко-Софт»</strong>
                                             <Tooltip iconStyles={true}>
                                                 <h5>Матрас «Мокко-Софт»</h5>
                                                 <p>ТИП МАТРАСА: Двусторонний</p>
