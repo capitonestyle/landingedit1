@@ -28,9 +28,9 @@
             { "value": 12, "price": 17800, "label": "200х200 см" }
         ],
         "mattress": [
-            { "value": 1, "label": "Без матраса" },
-            { "value": 2, "label": "Матрас «Сан»" },
-            { "value": 3, "label": "Матрас «Moкко-Софт»" }
+            { "value": 0, "label": "Без матраса" },
+            { "value": 1, "label": "Матрас «Сан»" },
+            { "value": 2, "label": "Матрас «Moкко-Софт»" }
         ],
         "mattressSize": [
             { "value": 0, "label": "80х190 см", "sans": 5008, "soft": 3042 },
