@@ -33,29 +33,30 @@
             { "value": 2, "label": "Матрас «Moкко-Софт»" }
         ],
         "mattressSize": [
-            { "value": 0, "label": "80х190 см", "sans": 5008, "soft": 3042 },
-            { "value": 1, "label": "80х200 см", "sans": 5168, "soft": 3156 },
-            { "value": 2, "label": "90х190 см", "sans": 5480, "soft": 3380 },
-            { "value": 3, "label": "90х200 см", "sans": 5664, "soft": 3507 },
-            { "value": 4, "label": "120х190 см", "sans": 6824, "soft": 4395 },
-            { "value": 5, "label": "120х200 см", "sans": 7016, "soft": 4563 },
-            { "value": 6, "label": "140х190 см", "sans": 7776, "soft": 5070 },
-            { "value": 7, "label": "140х200 см", "sans": 8008, "soft": 5264 },
-            { "value": 8, "label": "160х190 см", "sans": 8872, "soft": 5753 },
-            { "value": 9, "label": "160х200 см", "sans": 9000, "soft": 5970 },
+            { "value": 0, "label": "80х190 см", "sans": 0, "soft": 0 },
+            { "value": 1, "label": "80х190 см", "sans": 5008, "soft": 3042 },
+            { "value": 2, "label": "80х200 см", "sans": 5168, "soft": 3156 },
+            { "value": 3, "label": "90х190 см", "sans": 5480, "soft": 3380 },
+            { "value": 4, "label": "90х200 см", "sans": 5664, "soft": 3507 },
+            { "value": 5, "label": "120х190 см", "sans": 6824, "soft": 4395 },
+            { "value": 6, "label": "120х200 см", "sans": 7016, "soft": 4563 },
+            { "value": 7, "label": "140х190 см", "sans": 7776, "soft": 5070 },
+            { "value": 8, "label": "140х200 см", "sans": 8008, "soft": 5264 },
+            { "value": 9, "label": "160х190 см", "sans": 8872, "soft": 5753 },
+            { "value": 10, "label": "160х200 см", "sans": 9000, "soft": 5970 },
             {
-                "value": 10,
+                "value": 11,
                 "label": "180х190 см",
                 "sans": 9640,
                 "soft": 6429
             },
             {
-                "value": 11,
+                "value": 12,
                 "label": "180х200 см",
                 "sans": 9880,
                 "soft": 6675
             },
-            { "value": 12, "label": "200х200 см", "sans": 15168, "soft": 13160 }
+            { "value": 13, "label": "200х200 см", "sans": 15168, "soft": 13160 }
         ],
         "title": "Кровать DAKOTA",
         "description": "Материал обивки: велюр, ортопедическая рамка, большая ниша для вещей, скрытые пластиковые ножки, цвет и размер на выбор",
