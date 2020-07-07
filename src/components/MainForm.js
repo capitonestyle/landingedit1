@@ -98,7 +98,6 @@ const MainForm = ({ isModal, children, data, couchModel, setIsOpen }) => {
             couchSize: '',
             color: '',
             mattress: '',
-            mattressSize: '',
         },
         enableReinitialize: false,
         validationSchema: () => {
@@ -112,12 +111,6 @@ const MainForm = ({ isModal, children, data, couchModel, setIsOpen }) => {
                 mattress: Yup.string()
                     .ensure()
                     .required('Обязательное поле*'),
-                mattressSize:
-                    formik.values.mattress || formik.values.mattress.value === 1
-                        ? Yup.string()
-                              .ensure()
-                              .required('Обязательное поле*')
-                        : null,
                 firstName: Yup.string()
                     .min(1, 'Too Short!')
                     .max(50, 'Too Long!')
@@ -253,21 +246,6 @@ const MainForm = ({ isModal, children, data, couchModel, setIsOpen }) => {
                         placeholder="Выберите матрас"
                     />
 
-                    <ReactSelect
-                        label="РАЗМЕР МАТРАСА:"
-                        options={data.mattressSize}
-                        selectName="mattressSize"
-                        value={formik.values.mattressSize}
-                        onChange={formik.setFieldValue}
-                        onBlur={formik.setFieldTouched}
-                        error={formik.errors.mattressSize}
-                        touched={formik.touched.mattressSize}
-                        isDisabled={
-                            !formik.values.mattress ||
-                            formik.values.mattress.value === 1
-                        }
-                        placeholder="Выберите размер матраса"
-                    />
 
                     <InputField
                         name="firstName"
